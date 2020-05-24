@@ -3,6 +3,7 @@ Data Structures and Algorithms in JavaScript
 
 Data Structures
 - Array
+- HashTable
 
 Algorithm
 - TwoPairsSum in a array
