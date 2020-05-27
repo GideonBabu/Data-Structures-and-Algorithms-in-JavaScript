@@ -8,3 +8,4 @@ Data Structures
 Algorithm
 - TwoPairsSum in a array
 - Reverse a string
+- First Recurring Character
