@@ -5,7 +5,7 @@ Data Structures
 - Array
 - HashTable
 - Linked List
--- Singly Linked List
+- - Singly Linked List
 
 Algorithm
 - TwoPairsSum in a array
