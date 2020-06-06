@@ -1,5 +1,6 @@
 # Data-Structures-and-Algorithms-in-JavaScript
-Data Structures and Algorithms in JavaScript
+
+Visualize the Data Structures and Algorithms https://visualgo.net/en/list
 
 Data Structures
 - Array
