@@ -13,3 +13,4 @@ Algorithm
 - TwoPairsSum in a array
 - Reverse a string
 - First Recurring Character
+- Reverse a Singly Linked List (refer singly linked list above on DS file)
