@@ -104,13 +104,44 @@ class LinkedList {
 			this.tail = leader.next;
 		}
 		this.length--;
-		return this.printListValues()
+		return this.printListValues();
+	}
+	
+	reverse() {
+		if (this.length === 0) {
+			return console.log('empty linked list');
+		}
+		// if there is just one node in the linkedlist, just return, no need to reverse
+		if (this.length === 1) {
+			return this.printListValues();
+		}
+		console.log(this);
+		// initialize three pointers prev as null, curr as head and next as null
+		let prev = null;
+		let curr = this.head;
+		let next = null;
+		
+		// traverse through the linked list from head to tail
+		while (curr !== null) {
+			// store the next node of the curr before switching the pointers backwards
+			next = curr.next;
+			// now change the the pointer of the current towards backwards to prev
+			curr.next = prev;
+			// now move forward a step and assign current node to prev
+			prev = curr;
+			// now change the curr to the next
+			curr = next;
+		}
+		// change the reference to the head as prev after traversing the linked list
+		this.head = prev;
+		return this.printListValues();
 	}
 }
 
-const myLinkedList = new LinkedList(50);
-myLinkedList.append(60);
+const myLinkedList = new LinkedList(10);
+myLinkedList.append(5);
+myLinkedList.prepend(1);
 myLinkedList.prepend(30);
-myLinkedList.insert(1, 40);
-myLinkedList.remove(2);
+//myLinkedList.insert(1, 40);
 myLinkedList.printListValues();
+myLinkedList.reverse();
