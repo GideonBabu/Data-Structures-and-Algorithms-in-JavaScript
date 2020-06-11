@@ -6,8 +6,10 @@ Data Structures
 - Array
 - HashTable
 - Linked List
-- - Singly Linked List
-- - Doubly Linked List
+  - Singly Linked List
+  - Doubly Linked List
+- Stack using Linked List
+- Stack using Array
 
 Algorithm
 - TwoPairsSum in a array
