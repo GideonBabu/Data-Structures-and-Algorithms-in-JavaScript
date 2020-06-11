@@ -10,6 +10,7 @@ class Node {
 class Stack {
 	constructor() {
 		this.top = null;
+		this.bottom = null;
 		this.length = 0;
 	}
 	
@@ -44,6 +45,10 @@ class Stack {
 		const newTop = new Node(data);
 		newTop.next = this.top;
 		this.top = newTop;
+		// when pushing first item, set the bottom as top
+		if (this.bottom === null) {
+			this.bottom = this.top;
+		}
 		this.length++
 		return this;
 	}
@@ -58,6 +63,15 @@ class Stack {
 		}
 		const pop = this.top;
 		this.top = this.top.next;
+		
+		// when popping the last element in the stack, set bottom null
+		if (this.top === null) {
+			this.bottom = null;
+		}
+		// when popping the last previous element, set the bottom as top
+		if (this.top.next === null) {
+			this.bottom = this.top;
+		}
 		this.length--;
 		return pop.data;
 	}
