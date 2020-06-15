@@ -14,6 +14,7 @@ Data Structures
 - Queue
   - Using Linked List
   - Using Stack
+- Binary Search Tree (BST)
 
 Algorithm
 - TwoPairsSum in a array
