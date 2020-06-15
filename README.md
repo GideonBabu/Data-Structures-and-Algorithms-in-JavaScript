@@ -8,8 +8,12 @@ Data Structures
 - Linked List
   - Singly Linked List
   - Doubly Linked List
-- Stack using Linked List
-- Stack using Array
+- Stack 
+  - Using Linked List
+  - Using Array
+- Queue
+  - Using Linked List
+  - Using Stack
 
 Algorithm
 - TwoPairsSum in a array
