@@ -18,6 +18,7 @@ class BinarySearchTree {
 	}
 	
 	// insert method to add new node to the tree
+	// O(log N)
 	insert(value){
 		// todo: validate the input
 		
@@ -48,6 +49,7 @@ class BinarySearchTree {
 	}
 	
 	// search through the tree to find if the value exists in the tree nodes
+	// O(log N)
 	lookup(value) {
 		// todo: validate the input
 		
