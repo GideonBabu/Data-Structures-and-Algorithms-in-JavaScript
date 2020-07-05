@@ -2,6 +2,7 @@
 // 'Hi My name is Gideon' should output
 // 'noedig si eman yM iH'
 
+// iterative approcah
 function reverse(str) {
 	// validate the input
 	if (!str || str.length < 2 || typeof str !== 'string') {
@@ -33,3 +34,15 @@ const reverse3 = str => str.split('').reverse().join('');
 const reverse4 = str => [...str].reverse().join('');
 
 reverse('Hi My name is Gideon');
+
+// recursive approach
+function reverseString(str) {
+	if (str.length === 1) {
+	  return str;
+	}
+	return str.slice(-1) + reverseString(str.slice(0, -1));
+}
+
+reverseString('hello');
+  
+
