@@ -69,23 +69,64 @@ class BinarySearchTree {
 		
 	}
 	
-	// remove
+	// deletes a node from the binary search tree and update the nodes correctly
+	delete(root, find) {
+		if (root === null) {
+			return null;
+		} else if (find < root.value) {
+			root.left = this.delete(root.left, find);
+		} else if (find > root.value) {
+			root.right = this.delete(root.right, find);
+		} else {
+			// Case 1:  No child
+			if (root.left === null && root.right === null) {
+				root = null;
+			}
+			// case 2: one child either left or right
+			else if (root.left === null) {
+				root = root.right;
+			}
+			
+			else if (root.right === null) {
+				root = root.left;
+			}
+			// case 3: has both 2 children left and right
+			else {
+				// find minimum value of the right sub tree
+				const min = this.findMin(root.right);
+				root.value = min.value;
+				root.right = this.delete(root.right, min.value);
+			}
+		}
+		return root;
+	}
+	
+	findMin(node) {
+		while (node.left !== null) {
+			node = node.left;
+		}
+		return node;
+	}
 }
 
 const tree = new BinarySearchTree();
-tree.insert(9)
-tree.insert(4)
-tree.insert(6)
-tree.insert(20)
-tree.insert(170)
-tree.insert(15)
+tree.insert(5);
+tree.insert(10);
+tree.insert(6);
+tree.insert(3);
+tree.insert(4);
 tree.insert(1);
-//JSON.stringify(traverse(tree.root));
-tree.lookup(170);
+tree.insert(11);
+tree.delete(tree.root, 5);
+JSON.stringify(traverse(tree.root));
 
-//     9
-//  4     20
-//1  6  15  170
+/* Creating an example binary search tree
+		 5
+	   /   \
+	  3     10
+	 / \   /  \
+	1   4 6   11
+*/
 
 function traverse(node) {
 	const tree = { value: node.value };
