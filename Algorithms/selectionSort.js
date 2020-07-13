@@ -12,7 +12,7 @@ function selectionSort(array) {
 				jMin = j;
 			}
 		}
-		if (jMin != i) {
+		if (jMin !== i) {
 			swap(i, jMin);
 		}
 	}
