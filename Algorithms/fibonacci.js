@@ -13,8 +13,10 @@ function fibonacciIterative(n){
     return arr[n];
 }
 fibonacciIterative(3);
-  
+
+let calc = 0;
 function fibonacciRecursive(n) {
+	calc++;
     if (n < 2) {
       return n;
     }
@@ -22,4 +24,30 @@ function fibonacciRecursive(n) {
  }
   
 //fibonacciRecursive(8);
-fibonacciIterative(8);
+//fibonacciIterative(8);
+
+let calcDP = 0;
+// Time Complexity: O(n)
+// memoization/dynamic programming
+function fibonacciDP() {
+	let cache = {};
+	
+	return function fib(n) {
+		calcDP++;
+		if (n in cache) {
+			return cache[n];
+		}
+		if (n < 2) {
+			cache[n] = n;
+			return n;
+		}
+		cache[n] = fib(n -1) + fib (n - 2);
+		return cache[n];
+	}
+}
+
+console.log('slow fibonacci ', fibonacciRecursive(35));
+console.log('we did ' + calc + ' calculations');
+const fasterFib = fibonacciDP();
+console.log('DP ', fasterFib(35));
+console.log('we did ' + calcDP + ' calculations');
