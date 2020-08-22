@@ -38,7 +38,6 @@ function fibonacciDP() {
 			return cache[n];
 		}
 		if (n < 2) {
-			cache[n] = n;
 			return n;
 		}
 		cache[n] = fib(n -1) + fib (n - 2);
