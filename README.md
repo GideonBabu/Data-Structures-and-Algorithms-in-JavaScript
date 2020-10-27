@@ -16,8 +16,9 @@ Data Structures
   - Using Stack
 - Binary Search Tree (BST)
 
-Algorithm
+Algorithms
 - TwoPairsSum in a array
 - Reverse a string
 - First Recurring Character
 - Reverse a Singly Linked List (refer singly linked list above on DS file)
+- Merge Sorted Array
