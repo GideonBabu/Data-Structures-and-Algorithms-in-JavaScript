@@ -22,3 +22,4 @@ Algorithms
 - First Recurring Character
 - Reverse a Singly Linked List (refer singly linked list above on DS file)
 - Merge Sorted Array
+- Check if a singly linked list is a palindrome
