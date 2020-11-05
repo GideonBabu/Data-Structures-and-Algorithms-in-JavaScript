@@ -23,4 +23,5 @@ Algorithms
 - Reverse a Singly Linked List (refer singly linked list above on DS file)
 - Merge Sorted Array
 - Check if a singly linked list is a palindrome
-- Reverse a string in place (input given in a array of characters) 
+- Reverse a string in place (input given in a array of characters)
+- Stack Min (Stack DS with getting minimum value of the stack in constant time O(1)) 
