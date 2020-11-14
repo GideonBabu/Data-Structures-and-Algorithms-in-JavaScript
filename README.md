@@ -27,3 +27,4 @@ Algorithms
 - Stack Min (Stack DS with getting minimum value of the stack in constant time O(1))
 - Permutations with Duplicates
 - Search in a Binary Search Tree 
+- Valid Anagram
