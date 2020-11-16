@@ -28,3 +28,4 @@ Algorithms
 - Permutations with Duplicates
 - Search in a Binary Search Tree 
 - Valid Anagram
+- Get Decimal value from Binary Linked List
