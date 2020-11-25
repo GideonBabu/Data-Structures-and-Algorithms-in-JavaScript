@@ -32,3 +32,4 @@ Algorithms
 - Get Decimal value from Binary Linked List
 - No. of ways to climb stairs with 2 steps
 - Find the fibonacci sequence
+- Best time to buy and sell stock
