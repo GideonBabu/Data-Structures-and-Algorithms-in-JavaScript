@@ -35,3 +35,4 @@ Algorithms
 - Best time to buy and sell stock
 - Group Anagrams
 - Reverse digits of a 32-bit integer
+- Remove Linked List Elements
