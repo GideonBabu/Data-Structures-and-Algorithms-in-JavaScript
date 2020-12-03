@@ -38,3 +38,4 @@ Algorithms
 - Remove Linked List Elements
 - Remove Elements from an Array in place
 - Move Zeroes to the end of the array
+- Check if Linked List has a cycle
