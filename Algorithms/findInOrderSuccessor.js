@@ -19,8 +19,6 @@
  the inorder successor of 25 doesn't exist
  ********************************************************/
 
-
-
 // Constructor to create a new Node
 function Node(key) {
 	this.key = key;
@@ -34,10 +32,6 @@ function BinarySearchTree() {
 	this.root = null;
 }
 
-/**
- * Time complexity - O(h) where h is the height of the binary tree
- * Space complexity - O(1)
- */
 BinarySearchTree.prototype.findInOrderSuccessor = function(inputNode) {
 	
 	// case: if node has right child
@@ -46,19 +40,25 @@ BinarySearchTree.prototype.findInOrderSuccessor = function(inputNode) {
 	}
 	
 	// case: if right child is null
-	// find the parent which has next immediate bigger value
+	// travel up using the parent pointer until we see
+	// a node which is the left child of its parent. The parent
+	// of such a node is successorNode.
 	if (inputNode.right === null) {
-		return this.findNextMax(inputNode);
+		return this.findNextAncestorWithHigherVal(inputNode);
 	}
 	
 }
 
-BinarySearchTree.prototype.findNextMax = function(node) {
-	let parent = node.parent;
-	while (parent !== null && parent.key < node.key) {
-		parent = parent.parent;
+BinarySearchTree.prototype.findNextAncestorWithHigherVal = function(node) {
+	let child = node;
+	let ancestor = node.parent;
+	
+	while (ancestor !== null && child === ancestor.right) {
+		child = ancestor;
+		ancestor = child.parent;
 	}
-	return (parent) ? parent : null;
+	
+	return ancestor;
 }
 
 /**
@@ -151,7 +151,7 @@ bst.insert(11);
 bst.insert(14);
 
 // Get a reference to the node whose key is 9
-var test = bst.getNodeByKey(25);
+var test = bst.getNodeByKey(12);
 
 // Find the in order successor of test
 var succ = test ? bst.findInOrderSuccessor(test) : null;
