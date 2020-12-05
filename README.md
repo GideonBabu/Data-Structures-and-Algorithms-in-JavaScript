@@ -42,3 +42,4 @@ Algorithms
 - Detect start of the cycle in Linked List
 - Find Binary Search Tree (BST) Successor Search
 - Defanging an IP Address
+- Reverse vowels of the string
