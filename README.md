@@ -43,3 +43,4 @@ Algorithms
 - Find Binary Search Tree (BST) Successor Search
 - Defanging an IP Address
 - Reverse vowels of the string
+- Check if a BST is height balanced
