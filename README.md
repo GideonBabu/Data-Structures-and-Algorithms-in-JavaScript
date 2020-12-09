@@ -46,3 +46,4 @@ Algorithms
 - Check if a BST is height balanced
 - Determine if binary search tree (BST) is valid
 - Decode Ways
+- Search in Rotated Sorted Array
