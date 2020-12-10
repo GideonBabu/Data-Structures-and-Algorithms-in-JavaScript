@@ -47,3 +47,4 @@ Algorithms
 - Determine if binary search tree (BST) is valid
 - Decode Ways
 - Search in Rotated Sorted Array
+- 3Sum
