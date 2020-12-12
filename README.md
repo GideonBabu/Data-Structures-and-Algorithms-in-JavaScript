@@ -49,3 +49,4 @@ Algorithms
 - Search in Rotated Sorted Array
 - 3Sum
 - Maximum contiguous subarray sum
+- Monotonic Array
