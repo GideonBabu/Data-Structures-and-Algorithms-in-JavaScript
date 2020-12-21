@@ -51,3 +51,4 @@ Algorithms
 - Maximum contiguous subarray sum
 - Monotonic Array
 - Keyboard Row
+- InOrder Binary Tree Travelsal (recursive approach)
