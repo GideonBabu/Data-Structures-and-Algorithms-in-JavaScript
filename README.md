@@ -53,3 +53,4 @@ Algorithms
 - Keyboard Row
 - InOrder Binary Tree Traversal (recursive approach)
 - InOrder Binary Tree Traversal (iterative approach)
+- PreOrder Binary Tree Traversal (recursive)
