@@ -54,3 +54,4 @@ Algorithms
 - InOrder Binary Tree Traversal (recursive approach)
 - InOrder Binary Tree Traversal (iterative approach)
 - PreOrder Binary Tree Traversal (recursive)
+- PreOrder Binary Tree Traversal (iterative)
