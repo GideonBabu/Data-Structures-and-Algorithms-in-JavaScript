@@ -59,3 +59,4 @@ Algorithms
 - Post Order Binary Tree Traversal (iterative approach using one stack)
 -- Read more here https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45648/three-ways-of-iterative-postorder-traversing-easy-explanation
 - Missing Number in a array of positive intergers
+- 136. Single Number
