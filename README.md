@@ -64,3 +64,4 @@ Algorithms
 - 104. Maximum Depth of Binary Tree
 - 111. Minimum Depth of Binary Tree (recursive approach)
 - 111. Minimum Depth of Binary Tree (level order traversal BFS approach)
+- 2. Add Two Numbers
