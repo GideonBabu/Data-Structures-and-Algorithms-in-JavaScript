@@ -62,3 +62,4 @@ Algorithms
 - 136. Single Number
 - 136. Single Number (linear time and constant space) using XoR approach
 - 104. Maximum Depth of Binary Tree
+- 111. Minimum Depth of Binary Tree (recursive approach)
