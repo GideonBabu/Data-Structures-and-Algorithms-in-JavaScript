@@ -65,3 +65,4 @@ Algorithms
 - 111. Minimum Depth of Binary Tree (recursive approach)
 - 111. Minimum Depth of Binary Tree (level order traversal BFS approach)
 - 2. Add Two Numbers
+- 3. Longest Substring Without Repeating Characters
