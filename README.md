@@ -70,3 +70,4 @@ Algorithms
 - 230. Kth Smallest Element in a BST
 - 709. To Lower case
 - 938. Range Sum of BST
+- 1480. Running Sum of 1d Array
