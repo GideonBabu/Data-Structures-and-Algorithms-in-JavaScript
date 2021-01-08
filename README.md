@@ -72,3 +72,4 @@ Algorithms
 - 938. Range Sum of BST
 - 1480. Running Sum of 1d Array
 - 627. Swap salary
+- 1431. Kids With the Greatest Number of Candies
