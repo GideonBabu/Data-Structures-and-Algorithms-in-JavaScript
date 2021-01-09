@@ -73,3 +73,5 @@ Algorithms
 - 1480. Running Sum of 1d Array
 - 627. Swap salary
 - 1431. Kids With the Greatest Number of Candies
+- 804. Unique Morse Code Words 
+
