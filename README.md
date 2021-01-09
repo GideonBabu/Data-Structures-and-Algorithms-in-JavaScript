@@ -75,4 +75,5 @@ Algorithms
 - 1431. Kids With the Greatest Number of Candies
 - 804. Unique Morse Code Words
 - 1704. Determine if String Halves Are Alike 
+- 876. Middle of the Linked List
 
