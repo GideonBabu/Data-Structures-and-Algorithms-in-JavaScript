@@ -79,4 +79,5 @@ Algorithms
 - 1281. Subtract the Product and Sum of Digits of an Integer
 - 1470. Shuffle the Array
 - 461. Hamming Distance
+- 1342. Number of Steps to Reduce a Number to Zero
 
