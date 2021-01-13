@@ -82,3 +82,4 @@ Algorithms
 - 1342. Number of Steps to Reduce a Number to Zero
 - 1313. Decompress Run-Length Encoded List
 - 1221. Split a String in Balanced Strings
+- 1365. How Many Numbers Are Smaller Than the Current Number
