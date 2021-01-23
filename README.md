@@ -85,3 +85,4 @@ Algorithms
 - 1365. How Many Numbers Are Smaller Than the Current Number
 - 596. Classes More Than 5 Students
 - 728. Self Dividing Numbers
+- 1512. Number of Good Pairs
