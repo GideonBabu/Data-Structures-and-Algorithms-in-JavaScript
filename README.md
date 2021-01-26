@@ -86,3 +86,4 @@ Algorithms
 - 596. Classes More Than 5 Students
 - 728. Self Dividing Numbers
 - 1512. Number of Good Pairs
+- 832. Flipping an Image
