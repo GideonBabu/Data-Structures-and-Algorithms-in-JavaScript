@@ -88,3 +88,4 @@ Algorithms
 - 1512. Number of Good Pairs
 - 832. Flipping an Image
 - 1179. Reformat Department Table
+- 1672. Richest Customer Wealth
