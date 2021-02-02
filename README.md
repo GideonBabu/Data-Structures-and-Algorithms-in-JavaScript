@@ -87,3 +87,4 @@ Algorithms
 - 728. Self Dividing Numbers
 - 1512. Number of Good Pairs
 - 832. Flipping an Image
+- 1179. Reformat Department Table
