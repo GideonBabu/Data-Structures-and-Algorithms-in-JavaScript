@@ -90,3 +90,4 @@ Algorithms
 - 1179. Reformat Department Table
 - 1672. Richest Customer Wealth
 - 680. Valid Palindrome II
+- 31. Next Permutation
