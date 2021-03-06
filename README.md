@@ -60,34 +60,34 @@ Algorithms
 -- Read more here https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45648/three-ways-of-iterative-postorder-traversing-easy-explanation
 - Missing Number in a array of positive intergers
 - 136 - Single Number
-- 136. Single Number (linear time and constant space) using XoR approach
-- 104. Maximum Depth of Binary Tree
-- 111. Minimum Depth of Binary Tree (recursive approach)
-- 111. Minimum Depth of Binary Tree (level order traversal BFS approach)
-- 2. Add Two Numbers
-- 3. Longest Substring Without Repeating Characters
-- 771. Jewels and Stones
-- 230. Kth Smallest Element in a BST
-- 709. To Lower case
-- 938. Range Sum of BST
-- 1480. Running Sum of 1d Array
-- 627. Swap salary
-- 1431. Kids With the Greatest Number of Candies
-- 804. Unique Morse Code Words
-- 1704. Determine if String Halves Are Alike 
-- 876. Middle of the Linked List
-- 1281. Subtract the Product and Sum of Digits of an Integer
-- 1470. Shuffle the Array
-- 461. Hamming Distance
-- 1342. Number of Steps to Reduce a Number to Zero
-- 1313. Decompress Run-Length Encoded List
-- 1221. Split a String in Balanced Strings
-- 1365. How Many Numbers Are Smaller Than the Current Number
-- 596. Classes More Than 5 Students
-- 728. Self Dividing Numbers
-- 1512. Number of Good Pairs
-- 832. Flipping an Image
-- 1179. Reformat Department Table
-- 1672. Richest Customer Wealth
-- 680. Valid Palindrome II
+- 136 Single Number (linear time and constant space) using XoR approach
+- 104 Maximum Depth of Binary Tree
+- 111 Minimum Depth of Binary Tree (recursive approach)
+- 111 Minimum Depth of Binary Tree (level order traversal BFS approach)
+- 2 Add Two Numbers
+- 3 Longest Substring Without Repeating Characters
+- 771 Jewels and Stones
+- 230 Kth Smallest Element in a BST
+- 709 To Lower case
+- 938 Range Sum of BST
+- 1480 Running Sum of 1d Array
+- 627 Swap salary
+- 1431 Kids With the Greatest Number of Candies
+- 804 Unique Morse Code Words
+- 1704 Determine if String Halves Are Alike 
+- 876 Middle of the Linked List
+- 1281 Subtract the Product and Sum of Digits of an Integer
+- 1470 Shuffle the Array
+- 461 Hamming Distance
+- 1342 Number of Steps to Reduce a Number to Zero
+- 1313 Decompress Run-Length Encoded List
+- 1221 Split a String in Balanced Strings
+- 1365 How Many Numbers Are Smaller Than the Current Number
+- 596 Classes More Than 5 Students
+- 728 Self Dividing Numbers
+- 1512 Number of Good Pairs
+- 832 Flipping an Image
+- 1179 Reformat Department Table
+- 1672 Richest Customer Wealth
+- 680 Valid Palindrome II
 - 31 Next Permutation
