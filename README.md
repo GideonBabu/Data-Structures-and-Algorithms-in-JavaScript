@@ -59,7 +59,7 @@ Algorithms
 - Post Order Binary Tree Traversal (iterative approach using one stack)
 -- Read more here https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45648/three-ways-of-iterative-postorder-traversing-easy-explanation
 - Missing Number in a array of positive intergers
-- 136. Single Number
+- 136 - Single Number
 - 136. Single Number (linear time and constant space) using XoR approach
 - 104. Maximum Depth of Binary Tree
 - 111. Minimum Depth of Binary Tree (recursive approach)
@@ -90,4 +90,4 @@ Algorithms
 - 1179. Reformat Department Table
 - 1672. Richest Customer Wealth
 - 680. Valid Palindrome II
-- 31. Next Permutation
+- 31 Next Permutation
