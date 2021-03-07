@@ -9,6 +9,8 @@
 /**
  * @param {TreeNode} root
  * @return {number}
+* Time Complexity: O(n) where n is number of nodes in Binary Tree.
+ * Space Complexity: O(h) where h is the height of the binary tree
  */
 var maxPathSum = function(root) {
     let finalMax = Number.MIN_SAFE_INTEGER;
