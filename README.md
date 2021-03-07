@@ -95,3 +95,4 @@ Algorithms
 - 15 - 3Sum
 - 938 - range sum BST
 - 199 - Binary Tree Right Side View
+- 22 - Generate parantheses
