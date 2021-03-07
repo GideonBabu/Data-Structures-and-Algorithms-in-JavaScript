@@ -97,3 +97,4 @@ Algorithms
 - 199 - Binary Tree Right Side View
 - 22 - Generate parantheses
 - 173 - Binary Search Tree Iterator
+- 543 - Diameter of Binary Tree
