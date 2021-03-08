@@ -2,6 +2,10 @@
  * @param {string[]} words
  * @param {string} order
  * @return {boolean}
+ * Time Complexity: O(O) + O(WK) + O (O + WK) where O is the length of the order string
+ * W is the no. of words in given words array
+ * K is the longest word in words array
+ * Space Complexity: O(1)
  */
 var isAlienSorted = function(words, order) {
     
