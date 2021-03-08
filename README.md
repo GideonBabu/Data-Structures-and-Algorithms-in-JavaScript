@@ -100,3 +100,4 @@ Algorithms
 - 543 - Diameter of Binary Tree
 - 297 - Serialize and Seserialize BST
 - 124 - binary tree maximum path sum
+- 953 - verifying an Alien Dictionary
