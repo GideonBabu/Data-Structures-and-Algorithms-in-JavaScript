@@ -54,3 +54,50 @@ var leftMostColumnWithOne = function(binaryMatrix) {
     }
     
 };
+
+// Another approach
+
+/**
+ * // This is the BinaryMatrix's API interface.
+ * // You should not implement it, or speculate about its implementation
+ * function BinaryMatrix() {
+ *     @param {integer} row, col
+ *     @return {integer}
+ *     this.get = function(row, col) {
+ *         ...
+ *     };
+ *
+ *     @return {[integer, integer]}
+ *     this.dimensions = function() {
+ *         ...
+ *     };
+ * };
+ */
+
+/**
+ * @param {BinaryMatrix} binaryMatrix
+ * @return {number}
+ * Time complexity: O(M + N) where M and N are no. of rows and cols in the binary Matrix
+ * At each step, we're moving 1 step left or 1 step down. Therefore, we'll always finish looking at either one of the M rows or N columns. Therefore, we'll stay in the grid for at most N + MN+M steps, and therefore get a time complexity of O(N + M)O(N+M).
+ * Space complexity: O(1) as we are only using constant amount of memory to store the variables
+  
+ */
+var leftMostColumnWithOne = function(binaryMatrix) {            
+    [rows, cols] = binaryMatrix.dimensions();
+    
+    let rowIndex = 0;
+    let colIndex = cols - 1;
+    let result = -1;
+    
+    while (rowIndex < rows && colIndex >= 0) {
+        if (binaryMatrix.get(rowIndex, colIndex) === 1) {
+            result = colIndex;
+            colIndex--; // go left
+        } else {
+            rowIndex++; // go down   
+        }
+    }
+    
+    return result;
+    
+};
