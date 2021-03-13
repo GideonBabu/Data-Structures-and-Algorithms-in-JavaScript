@@ -107,3 +107,4 @@ Algorithms
 - 121 - Best Time to Buy and Sell Stock
 - 10 - Regular expression matching
 - 215 - Kth Largest Element in an array
+- 494 - Target Sum
