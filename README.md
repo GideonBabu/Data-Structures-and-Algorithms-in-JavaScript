@@ -108,3 +108,5 @@ Algorithms
 - 10 - Regular expression matching
 - 215 - Kth Largest Element in an array
 - 494 - Target Sum
+- 510 - Inorder successor in BST II
+- 583 - Delete Operation for Two Strings
