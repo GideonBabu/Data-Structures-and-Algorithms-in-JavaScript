@@ -114,4 +114,5 @@ Algorithms
 - 973 - K Closest points to Origin
 - 415 - Add Strings
 - 349 - Intersection of Two Arrays
-- 253 - Meeting Rooms II 
+- 253 - Meeting Rooms II
+- 138 - copy list with random pointer 
