@@ -124,4 +124,5 @@ Algorithms
 - 322 - Coin Change
 - 56 - Merge Intervals
 - 426 - Convert Binary Search Tree to Sorted Linked List
-- 1143 - Longest Common Subsequence 
+- 1143 - Longest Common Subsequence
+- Time Planner (pramp) 
