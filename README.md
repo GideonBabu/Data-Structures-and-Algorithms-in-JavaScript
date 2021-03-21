@@ -126,4 +126,5 @@ Algorithms
 - 426 - Convert Binary Search Tree to Sorted Linked List
 - 1143 - Longest Common Subsequence
 - Time Planner (pramp)o
-- 252 - Meeting Rooms 
+- 252 - Meeting Rooms
+- 986 - Interval List Intersections 
