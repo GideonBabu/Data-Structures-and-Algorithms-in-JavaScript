@@ -127,4 +127,5 @@ Algorithms
 - 1143 - Longest Common Subsequence
 - Time Planner (pramp)o
 - 252 - Meeting Rooms
-- 986 - Interval List Intersections 
+- 986 - Interval List Intersections
+- 1249 - Minimum Remove to Make Valid Parantheses 
