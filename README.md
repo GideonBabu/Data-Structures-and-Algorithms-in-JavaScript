@@ -128,4 +128,5 @@ Algorithms
 - Time Planner (pramp)o
 - 252 - Meeting Rooms
 - 986 - Interval List Intersections
-- 1249 - Minimum Remove to Make Valid Parantheses 
+- 1249 - Minimum Remove to Make Valid Parantheses
+- 1570 - Dot Product of Two Sparse Vectors 
