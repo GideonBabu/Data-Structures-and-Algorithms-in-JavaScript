@@ -137,4 +137,6 @@ Algorithms
 - 301 - Remove Invalid Parentheses
 - 18 - 4Sum
 - pramp - Smallest Substring of all Characters
-- 350 - Intersection of Two Array II 
+- 350 - Intersection of Two Array II
+- 721 - Accounts Merge
+ 
