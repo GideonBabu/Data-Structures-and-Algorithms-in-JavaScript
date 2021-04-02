@@ -143,4 +143,6 @@ Algorithms
 - 269 Alien Dictionary
 - 236 Lowest Common Ancestor of a Binary Tree
 - 235 Lowest Common Ancestor of a Binary Search Tree
-- 65 Valid Number 
+- 65 Valid Number
+- 528 Random Pick with Weight
+ 
