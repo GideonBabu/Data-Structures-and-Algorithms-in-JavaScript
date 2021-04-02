@@ -141,4 +141,5 @@ Algorithms
 - 721 - Accounts Merge
 - 270 Closest Binary Search Tree Value
 - 269 Alien Dictionary
-- 236 Lowest Common Ancestor of a Binary Tree 
+- 236 Lowest Common Ancestor of a Binary Tree
+- 235 Lowest Common Ancestor of a Binary Search Tree 
