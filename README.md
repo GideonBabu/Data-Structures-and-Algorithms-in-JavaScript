@@ -150,4 +150,4 @@ Algorithms
 - pramp Drone Flight Planner
 - 29 Divide Two Integers
 - 621 Task Scheduler
-
+- 1333 Filter Restaurants by Vegan-Friendly, Price and Distance
