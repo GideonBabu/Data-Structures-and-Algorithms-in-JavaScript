@@ -1,0 +1,44 @@
+/**
+ * @param {string[]} list1
+ * @param {string[]} list2
+ * @return {string[]}
+ * time O(N + M) N = list1 size and M = list2 size
+ * space O(Minimum of N and M) to store the restaurant names and index in hash map
+ */
+var findRestaurant = function(list1, list2) {
+    if (list1.length > list2.length) {
+        return findRestaurant(list2, list1);
+    }
+
+    let map = new Map();
+    
+    for (let i = 0; i < list1.length; i++) { 
+        let restaurant = list1[i];       
+        map.set(restaurant, i);
+    }
+
+    let leastIndex = list1.length + list2.length - 1;
+    
+    let favorites = [];
+
+    for (let j = 0; j < list2.length; j++) {
+        let res = list2[j];
+        
+        if (map.has(res)) {
+            let indexSum = j + map.get(res);            
+            if (indexSum <= leastIndex) {
+                
+                if (indexSum < leastIndex && favorites.length) {
+                    favorites = [];
+                }
+                
+                favorites.push(res);
+                leastIndex = indexSum;           
+            }
+        }
+    }    
+
+    return favorites;
+     
+};
+
