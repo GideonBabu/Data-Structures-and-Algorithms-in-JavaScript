@@ -156,4 +156,5 @@ Algorithms
 - 347 Top K Frequent Elements
 - 692 Top K Frequent words
 - 599 Minimum Index Sum of Two Lists
+- 332 Reconstruct Itinerary
 
