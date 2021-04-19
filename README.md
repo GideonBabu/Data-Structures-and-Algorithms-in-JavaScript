@@ -158,4 +158,5 @@ Algorithms
 - 599 Minimum Index Sum of Two Lists
 - 332 Reconstruct Itinerary
 - 784 Letter Case Permutation
+- 1455 Check if a word occurs as a prefix of any word in a sentense
 
