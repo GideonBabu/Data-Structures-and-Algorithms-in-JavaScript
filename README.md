@@ -15,6 +15,7 @@ Data Structures
   - Using Linked List
   - Using Stack
 - Binary Search Tree (BST)
+- Min Heap
 
 Algorithms
 - TwoPairsSum in a array
